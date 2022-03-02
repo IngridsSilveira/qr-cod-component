@@ -20,7 +20,7 @@ This is the example responsive:
 
 ### Links
 
-- Solution URL: [Solution here](https://your-solution-url.com)
+- Solution URL: [Solution here](https://ingridssilveira.github.io/qr-cod-component/)
 
 ### Built with
 
