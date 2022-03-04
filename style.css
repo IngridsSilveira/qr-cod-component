@@ -7,21 +7,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    min-width: 375px;
-    max-width: 1440px;
-}
 .container {
-    padding: 0;
-    width: 85vw;
-    height: 89vh;
+    width: 100%;
+    min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
-    margin: auto;
-    margin-top: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2px;
+    flex-direction: column;
 }
 .quadrado {
     width: 290px;
@@ -62,8 +55,11 @@ footer {
     margin-top: 15px;
 }
 .attribution { 
-    font-size: 11px; 
+    font-size: 12px; 
     text-align: center; 
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
@@ -78,11 +74,4 @@ footer {
     body {
         background-color: hsl(212, 45%, 89%);
     }
-   .container {
-    margin: 0;
-    margin: auto;
-   }
-   footer {
-       display: none;
-   }
 }
